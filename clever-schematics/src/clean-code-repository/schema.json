@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "cleverSchematicsClenCodeRepository",
+  "description": "Création d'un Repository dans la clean architecture",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nom du Repository",
+      "x-prompt": "Veuillez entrer le nom du Repository"
+    }
+  }
+}

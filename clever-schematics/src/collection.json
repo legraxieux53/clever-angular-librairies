@@ -1,0 +1,28 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "clever-schematics": {
+      "description": "A blank schematic.",
+      "factory": "./clever-schematics/index#cleverSchematics"
+    },
+    "clean-code-base": {
+      "description": "A blank schematic.",
+      "factory": "./clean-code-base/index#cleanCodeBase"
+    },
+    "clean-code-dto": {
+      "description": "A blank schematic.",
+      "factory": "./clean-code-dto/index#cleanCodeDto",
+      "schema": "./clean-code-dto/schema.json"
+    },
+    "clean-code-repository": {
+      "description": "A blank schematic.",
+      "factory": "./clean-code-repository/index#cleanCodeRepository",
+      "schema": "./clean-code-repository/schema.json"
+    },
+    "clean-code-usecase": {
+      "description": "A blank schematic.",
+      "factory": "./clean-code-usecase/index#cleanCodeUsecase",
+      "schema": "./clean-code-usecase/schema.json"
+    }
+  }
+}

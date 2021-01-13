@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "cleverSchematicsClenCodeDto",
+  "description": "Création d'un DTO dans la clean architecture",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nom du DTO",
+      "x-prompt": "Veuillez entrer le nom du dto"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["interface", "class", "enum"],
+      "default": "interface",
+      "description": "Type du DTO",
+      "x-prompt": "Veuillez selectionner le type du DTO"
+    }
+  }
+}
