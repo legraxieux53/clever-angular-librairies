@@ -10,7 +10,7 @@
   "keywords": [
     "schematics"
   ],
-  "author": "",
+  "author": "Nehemie KONAN",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
