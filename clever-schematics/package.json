@@ -11,7 +11,7 @@
     "schematics"
   ],
   "author": "Nehemie KONAN",
-  "license": "MIT",
+  "license": "ISC",
   "schematics": "./src/collection.json",
   "dependencies": {
     "@angular-devkit/core": "^11.0.5",
