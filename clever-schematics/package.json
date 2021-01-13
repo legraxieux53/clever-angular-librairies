@@ -1,6 +1,6 @@
 {
   "name": "clever-schematics",
-  "version": "0.0.1",
+  "version": "0.0.2-rc1",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
